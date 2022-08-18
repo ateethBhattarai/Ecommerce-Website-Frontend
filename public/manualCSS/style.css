@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.searchArea {
+    position: relative !important;
+}
+
+.searchBTN {
+    position: absolute !important;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.megamenu {
+    position: static;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.brands {
+    box-shadow: 2px 2px 10px #e4e1e1, -1px -1px 10px #eeeaea;
+    border: solid 1px rgb(236, 232, 232);
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer {
+    border: 1px solid #ebe5e5;
+    padding: 10px;
+    box-shadow: -1px -1px 10px #eeeaea, 2px 2px 10px #e7e2e2;
+}
+
+
+.signupLogin {
+    position: fixed;
+    padding: 30px 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(19, 19, 19, 0.541);
+    display: none;
+}
+
+.signupLogin .container {
+    background-color: white;
+    padding: 10px;
+}
+
+.closeBTN {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: xx-large;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(211, 9, 9);
+}
+
+.cn-img-center {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #ddd
+}
+
+
+.cn-side-ad .cn-img {
+    width: 100%;
+    min-height: auto
+}
+
+.cn-img-center a {
+    display: inherit
+}
+
+.cn-img-center .cn-img {
+    margin: auto
+}
+
+@media(min-width:992px) {
+    .cn-sm-img {
+        height: 60px
+    }
+
+    .cn-ssm-img {
+        height: 120px
+    }
+
+    .cn-md-img {
+        height: 198px
+    }
+
+    .cn-mmd-img {
+        height: 270px
+    }
+
+    .cn-lg-img {
+        height: 410px
+    }
+}
+
+@media(max-width:991px) and (min-width:768px) {
+    .cn-sm-img {
+        height: 60px
+    }
+
+    .cn-ssm-img {
+        height: 140px
+    }
+
+    .cn-md-img {
+        height: 163px
+    }
+
+    .cn-mmd-img {
+        height: 263px
+    }
+
+    .cn-lg-img {
+        height: 345px
+    }
+}
+
+@media(max-width:767px) {
+    .cn-sm-img {
+        height: 60px
+    }
+
+    .cn-ssm-img {
+        height: 190px
+    }
+
+    .cn-md-img {
+        height: 190px
+    }
+
+    .cn-mmd-img {
+        height: 190px
+    }
+
+    .cn-lg-img {
+        height: 190px
+    }
+}
+
+
+
+@media screen and (max-width:575px) {
+    .ab_carausal img {
+        height: 200px;
+    }
+
+    .ab_carausal {
+        height: 200px;
+    }
+}
