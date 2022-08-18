@@ -133,7 +133,7 @@
                 <div class="searchArea">
                     <input class="rounded w-100 p-2" type="text" placeholder="Search">
                     <div class="searchBTN">
-                        <i class="fa fa-search p-1" aria-hidden="true"></i>
+                        <a class="border-0 bg-white"><i class="fa fa-search p-1" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

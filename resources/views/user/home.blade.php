@@ -33,7 +33,7 @@
             </div>
             <div class="row brands">
                 <a href="#">
-                    <div class=" col-sm-4 col-md-3 border mb-3 text-center ">
+                    <div class=" col-sm-4 col-md-3 border-right border-left my-3 text-center ">
                         <div class="bg-secondary">
                             <div class=" cn-img-center">
                                 <img class="cn-img cn-md-img"
@@ -45,7 +45,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div class="col-sm-4 col-md-3 border mb-3 text-center ">
+                    <div class="col-sm-4 col-md-3 border-right border-left my-3 text-center ">
                         <div class="bg-secondary">
                             <div class=" cn-img-center">
                                 <img class="cn-img cn-md-img"
@@ -57,7 +57,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div class="col-sm-4 col-md-3 border mb-3 text-center ">
+                    <div class="col-sm-4 col-md-3 border-right border-left my-3 text-center ">
                         <div class="bg-secondary">
                             <div class=" cn-img-center">
                                 <img class="cn-img cn-md-img"
@@ -69,7 +69,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div class="col-sm-4 col-md-3 border mb-3 text-center ">
+                    <div class="col-sm-4 col-md-3 border-right border-left text-center ">
                         <div class="bg-secondary">
                             <div class=" cn-img-center">
                                 <img class="cn-img cn-md-img"
