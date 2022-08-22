@@ -16,3 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('user.home');
 });
+
+Route::get('/categories', function () {
+    return view('user.categories');
+})->name('categories');
+
+Route::get('/subcategories', function () {
+    return view('user.sub_categories');
+})->name('subcategories');
+
+Route::get('/brand', function () {
+    return view('user.brand');
+})->name('brand');
+
+Route::get('/product', function () {
+    return view('user.product');
+})->name('product');
+
+Route::get('/productdetails', function () {
+    return view('user.product_details');
+})->name('productdetails');

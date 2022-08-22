@@ -19,6 +19,24 @@
     position: static;
 }
 
+.hide {
+    display: none;
+}
+
+#sorting:hover,
+#price:hover,
+#name:hover {
+    background-color: rgb(219, 194, 194);
+    cursor: pointer;
+}
+
+#sorting,
+#price,
+#name {
+    border: solid rgb(180, 169, 169);
+    border-radius: 10px;
+}
+
 .megamenu .dropdown-menu {
     background: none;
     border: none;

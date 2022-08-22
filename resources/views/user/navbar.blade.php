@@ -328,8 +328,7 @@
             e.preventDefault();
             $("#signup").show();
         });
-    </script>
-    <script>
+
         //to close signup form
         $(".closeLogin").click(function(e) {
             e.preventDefault();
@@ -341,6 +340,23 @@
             e.preventDefault();
             $("#login").show();
         });
+    </script>
+
+    <script>
+        // used for sorting purpose
+        function showhide() {
+            var value = $('#sorting').val();
+            if (value == 'price') {
+                $('#price').show();
+                $('#name').hide();
+            } else if (value == 'name') {
+                $('#name').show();
+                $('#price').hide();
+            } else {
+                $('#price').hide();
+                $('#name').hide();
+            }
+        }
     </script>
 </body>
 
