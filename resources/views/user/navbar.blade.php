@@ -17,7 +17,7 @@
 
     <!-- Manual CSS -->
     <link rel="stylesheet" href="{{ asset('manualCSS\style.css') }}">
-
+    @yield('styles')
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                                 <input type="password" name="" class="form-control">
                                 <div class="form-check my-3">
                                     <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input" name="" id=""
+                                        <input type="checkbox" class="form-check-input" name=""
                                             value="checkedValue" checked>
                                         By signing up I agree the terms and conditions of the company.
                                     </label>
@@ -85,7 +85,7 @@
                                 <input type="password" name="" class="form-control">
                                 <div class="form-check my-3">
                                     <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input" name="" id=""
+                                        <input type="checkbox" class="form-check-input" name=""
                                             value="checkedValue" checked>
                                         By signing up I agree the terms and conditions of the company.
                                     </label>
@@ -306,6 +306,13 @@
             beatae, sapiente autem voluptatem repudiandae corporis.
         </div>
     </footer>
+
+
+    <div class="topManager">
+        <button class="btn btn-outline-secondary" id="topBTN">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -358,6 +365,15 @@
             }
         }
     </script>
+
+    <script>
+        // scroll topBTN
+        $('#topBTN').click(function(e) {
+            e.preventDefault();
+            $('html').scrollTop(0);
+        });
+    </script>
+    @yield('script')
 </body>
 
 </html>

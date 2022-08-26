@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .searchArea {
     position: relative !important;
 }
@@ -37,6 +41,27 @@
     border-radius: 10px;
 }
 
+.left_product_images {
+    overflow: scroll;
+    height: 300px;
+}
+
+.left_product_images::-webkit-scrollbar {
+    display: none;
+}
+
+#plus,
+#minus {
+    cursor: pointer;
+    color: rgb(194, 186, 186);
+}
+
+#plus:hover,
+#minus:hover {
+    cursor: pointer;
+    color: rgb(136, 133, 133);
+}
+
 .megamenu .dropdown-menu {
     background: none;
     border: none;
@@ -46,6 +71,14 @@
 .brands {
     box-shadow: 2px 2px 10px #e4e1e1, -1px -1px 10px #eeeaea;
     border: solid 1px rgb(236, 232, 232);
+}
+
+.topManager {
+    position: fixed;
+    /* display: none; */
+    bottom: 5px;
+    right: 10px;
+    z-index: 999;
 }
 
 ul li {
