@@ -17,6 +17,7 @@
 
     <!-- Manual CSS -->
     <link rel="stylesheet" href="{{ asset('manualCSS\style.css') }}">
+    <link rel="stylesheet" href="{{ asset('manualCSS\sidebar.css') }}">
     @yield('styles')
 </head>
 

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="my-1 text-sm-right text-center col-sm-8 col-md-6 col-lg-7">
-                <h2>Sub-Categories</h2>
+                <h2>Brands</h2>
             </div>
             <div class="ml-auto text-md-left text-center col-md-5 col-lg-4 my-md-3">
                 <select name="" class="" id="sorting" onchange="showhide()">
@@ -33,7 +33,7 @@
                                 alt="photo">
                         </div>
                     </div>
-                    <a href="#"><strong class="text-dark"> Clothing</strong></a>
+                    <a href="#"><strong class="text-dark"> POCO</strong></a>
                 </div>
             </a>
             <a href="#">
@@ -45,7 +45,7 @@
                                 alt="photo">
                         </div>
                     </div>
-                    <a href="#"><strong class="text-dark"> Electronics</strong></a>
+                    <a href="#"><strong class="text-dark"> Redmi</strong></a>
                 </div>
             </a>
             <a href="#">
@@ -57,7 +57,7 @@
                                 alt="photo">
                         </div>
                     </div>
-                    <a href="#"><strong class="text-dark"> Kitchen</strong></a>
+                    <a href="#"><strong class="text-dark"> Xiomi</strong></a>
                 </div>
             </a>
             <a href="#">
@@ -69,7 +69,7 @@
                                 alt="photo">
                         </div>
                     </div>
-                    <a href="#"><strong class="text-dark"> Mobile Devices</strong></a>
+                    <a href="#"><strong class="text-dark">IPhone</strong></a>
                 </div>
             </a>
             <a href="#">
